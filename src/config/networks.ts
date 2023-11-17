@@ -8,7 +8,7 @@ import KusamaInlineSVG from 'img/kusama_inline.svg?react';
 import KusamaLogoSVG from 'img/kusama_logo.svg?react';
 import PolkadotIconSVG from 'img/polkadot_icon.svg?react';
 import PolkadotInlineSVG from 'img/polkadot_inline.svg?react';
-import PolkadotLogoSVG from 'img/polkadot_logo.svg?react';
+import PolkadotLogoSVG from 'img/coin_1.svg?react';
 import WestendIconSVG from 'img/westend_icon.svg?react';
 import WestendInlineSVG from 'img/westend_inline.svg?react';
 import WestendLogoSVG from 'img/westend_logo.svg?react';
@@ -69,7 +69,7 @@ export const NetworkList: Networks = {
       token: PolkadotTokenSVG,
       logo: {
         svg: PolkadotLogoSVG,
-        width: '7.2em',
+        width: '0',
       },
       inline: {
         svg: PolkadotInlineSVG,

@@ -17,6 +17,7 @@ import type { PageCategory, PageItem, PagesConfigItems } from 'types';
 import { useNetwork } from 'contexts/Network';
 import { useActiveAccounts } from 'contexts/ActiveAccounts';
 import { useImportedAccounts } from 'contexts/Connect/ImportedAccounts';
+import PolkadotLogoPNG from 'img/sig22.png';
 import { Heading } from './Heading/Heading';
 import { Primary } from './Primary';
 import { LogoWrapper } from './Wrapper';
@@ -148,12 +149,10 @@ export const Main = () => {
           />
         ) : (
           <>
-            <networkData.brand.logo.svg
-              style={{
-                maxHeight: '100%',
-                height: '100%',
-                width: networkData.brand.logo.width,
-              }}
+            <img
+              src={PolkadotLogoPNG}
+              alt="logo"
+              style={{ maxHeight: '100%' }}
             />
           </>
         )}
